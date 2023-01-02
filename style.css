@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+}
+body {
+  background-color: #11011e;
+}
+nav {
+  display: flex;
+  padding: 20px 90px;
+}
+#logo {
+  font-weight: 700;
+  display: flex;
+}
+#logo span {
+  color: #0fae96;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  gap: 3rem;
+  align-items: center;
+}
+nav ul div {
+  display: flex;
+  gap: 2rem;
+}
+.links a {
+  padding: 10px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+.links a:hover {
+  color: #0fae96;
+}
+.active a {
+  color: #0fae96 !important;
+}
+#lang {
+  background: transparent;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+}
+option {
+  background-color: #11011e;
+  color: #ffffff;
+}
+.right {
+  align-items: center;
+}
+.rightMenu {
+  gap: 5px;
+}
+#hero {
+  display: flex;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.head-text {
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+  font-size: 36px;
+  line-height: 44px;
+  color: #ecf1f0;
+  padding-bottom: 18px;
+}
+.sub-title {
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+  color: #ffffffb5;
+  line-height: 28px;
+  padding-bottom: 40px;
+}
+.back1 {
+  background: #00ffffa1;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  z-index: -1;
+  border-radius: 50%;
+  filter: blur(130px);
+  translate: -100px;
+}
+.back2 {
+  background: rgb(183 0 255 / 73%);
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  z-index: -1;
+  border-radius: 50%;
+  filter: blur(130px);
+  translate: 114px;
+}
+.market-trends {
+  display: flex;
+  width: 100%;
+  padding: 25px;
+}
+.market-trends-container {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 18px;
+  padding: 18px 21px;
+  width: 20%;
+
+}
+.card-top {
+  display: flex;
+  border-bottom: 2px solid #ecf1f026;
+  padding-bottom: 17px;
+  justify-content: space-between;
+}
+.card-top-content {
+  align-items: center;
+  /* margin-right: 46px; */
+}
+.card-bottom div {
+  display: flex;
+  padding-top: 17px;
+}
+.card-bottom .price-menu {
+  display: flex;
+  flex-direction: column;
+}
+.coin-label {
+  background-color: #c6c6c6;
+  padding: 4px 6px 4px 6px;
+  color: #1d1429;
+  text-transform: uppercase;
+  border-radius: 4px;
+}
+.card-price {
+  font-size: 24px;
+  font-weight: 500;
+}
+.share {
+  color: #b6b6b6;
+  font-size: 18px;
+  font-weight: 500;
+}
+/* COMMON STYLING */
+.btn {
+  background-color: #0fae96;
+  color: #ffffff;
+
+  font-weight: 600;
+  padding: 12px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+.text-center {
+  text-align: center;
+}
+.flex {
+  display: flex;
+}
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+section{
+    margin: 0 5rem;
+}
